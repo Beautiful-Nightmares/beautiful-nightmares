@@ -11,8 +11,8 @@ export default function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, ease: "easeOut" }}
                 >
-                    <Link to="/"><motion.img
-                        src="/src/assets/better_bn_logo.png"
+                    <Link to="/beautiful-nightmares"><motion.img
+                        src="/better_bn_logo.png"
                         className="max-w-sm rounded-lg shadow-2xl"
                         initial={{ scale: 0.85, opacity: 0 }}
                         animate={{ scale: 0.95, opacity: 1 }}

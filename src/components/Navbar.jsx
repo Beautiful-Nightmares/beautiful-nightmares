@@ -5,7 +5,7 @@ export default function Navbar() {
         <>
             <div className="navbar bg-base-100 shadow-sm h-4rem">
                 <div className="flex-1">
-                    <Link to="/" className="btn btn-ghost text-xl">Beautiful Nightmares</Link>
+                    <Link to="/beautiful-nightmares" className="btn btn-ghost text-xl">Beautiful Nightmares</Link>
                 </div>
                 
                 {/* 

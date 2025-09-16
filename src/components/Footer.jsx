@@ -1,10 +1,11 @@
+import {Link} from "react-router-dom";
 
 export default function Footer() {
     return (
         <>
             <footer className="footer sm:footer-horizontal bg-base-100 text-base-content items-center p-4">
                 <aside className="grid-flow-col items-center">
-                    <a href="/"><img src="/src/assets/bn_only_gold.png" className="h-6"/></a>
+                    <Link to="/beautiful-nightmares"><img src="/bn_only_gold.png" className="h-6"/></Link>
                     <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
                 </aside>
                 <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
