@@ -5,7 +5,7 @@ export default function Footer() {
         <>
             <footer className="footer sm:footer-horizontal bg-base-100 text-base-content items-center p-4">
                 <aside className="grid-flow-col items-center">
-                    <Link to="/beautiful-nightmares"><img src="./bn_only_gold.png" className="h-6"/></Link>
+                    <Link to="/"><img src="./bn_only_gold.png" className="h-6"/></Link>
                     <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
                 </aside>
                 <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
