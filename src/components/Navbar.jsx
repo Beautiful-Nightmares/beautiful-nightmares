@@ -12,9 +12,9 @@ export default function Navbar() {
                     <div className="flex-none">
                         <ul className="menu menu-horizontal px-1">
                             <li><Link to="/About">About</Link></li>
-                            <li><Link to="/Stories">Stories</Link></li>
-                            <li><Link to="/Photos">Photo Library</Link></li>
-                            <li><Link to="/Audio">Audio Tracks</Link></li>                    
+                            <li><Link to="/Recipes">Recipes</Link></li>
+                            <li><Link to="/Meal Plan">Meal Plan</Link></li>
+                            <li><Link to="/Grocery List">Grocery List</Link></li>                    
                         </ul>
                     </div>
                 */}
